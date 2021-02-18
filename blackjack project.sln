@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F2C18A2-7DFF-4509-B163-382596B38687}"
+	ProjectSection(SolutionItems) = preProject
+		bjstyle.css = bjstyle.css
+		blackjack.js = blackjack.js
+		blackjack.php = blackjack.php
+		forside.php = forside.php
+		functions.php = functions.php
+		..\..\ddu3\Html n shit blacky\hval.png = ..\..\ddu3\Html n shit blacky\hval.png
+		index.php = index.php
+		login.php = login.php
+		logout.php = logout.php
+		navbar.php = navbar.php
+		register.php = register.php
+		testy.html = testy.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cards", "cards", "{80A91EE1-F7E2-47E4-9FEF-537B4FDF2D70}"
+	ProjectSection(SolutionItems) = preProject
+		cards\10_of_clubs.svg = cards\10_of_clubs.svg
+		cards\10_of_diamonds.svg = cards\10_of_diamonds.svg
+		cards\10_of_hearts.svg = cards\10_of_hearts.svg
+		cards\10_of_spades.svg = cards\10_of_spades.svg
+		cards\2_of_clubs.svg = cards\2_of_clubs.svg
+		cards\2_of_diamonds.svg = cards\2_of_diamonds.svg
+		cards\2_of_hearts.svg = cards\2_of_hearts.svg
+		cards\2_of_spades.svg = cards\2_of_spades.svg
+		cards\3_of_clubs.svg = cards\3_of_clubs.svg
+		cards\3_of_diamonds.svg = cards\3_of_diamonds.svg
+		cards\3_of_hearts.svg = cards\3_of_hearts.svg
+		cards\3_of_spades.svg = cards\3_of_spades.svg
+		cards\4_of_clubs.svg = cards\4_of_clubs.svg
+		cards\4_of_diamonds.svg = cards\4_of_diamonds.svg
+		cards\4_of_hearts.svg = cards\4_of_hearts.svg
+		cards\4_of_spades.svg = cards\4_of_spades.svg
+		cards\5_of_clubs.svg = cards\5_of_clubs.svg
+		cards\5_of_diamonds.svg = cards\5_of_diamonds.svg
+		cards\5_of_hearts.svg = cards\5_of_hearts.svg
+		cards\5_of_spades.svg = cards\5_of_spades.svg
+		cards\6_of_clubs.svg = cards\6_of_clubs.svg
+		cards\6_of_diamonds.svg = cards\6_of_diamonds.svg
+		cards\6_of_hearts.svg = cards\6_of_hearts.svg
+		cards\6_of_spades.svg = cards\6_of_spades.svg
+		cards\7_of_clubs.svg = cards\7_of_clubs.svg
+		cards\7_of_diamonds.svg = cards\7_of_diamonds.svg
+		cards\7_of_hearts.svg = cards\7_of_hearts.svg
+		cards\7_of_spades.svg = cards\7_of_spades.svg
+		cards\8_of_clubs.svg = cards\8_of_clubs.svg
+		cards\8_of_diamonds.svg = cards\8_of_diamonds.svg
+		cards\8_of_hearts.svg = cards\8_of_hearts.svg
+		cards\8_of_spades.svg = cards\8_of_spades.svg
+		cards\9_of_clubs.svg = cards\9_of_clubs.svg
+		cards\9_of_diamonds.svg = cards\9_of_diamonds.svg
+		cards\9_of_hearts.svg = cards\9_of_hearts.svg
+		cards\9_of_spades.svg = cards\9_of_spades.svg
+		cards\ace_of_clubs.svg = cards\ace_of_clubs.svg
+		cards\ace_of_diamonds.svg = cards\ace_of_diamonds.svg
+		cards\ace_of_hearts.svg = cards\ace_of_hearts.svg
+		cards\ace_of_spades.svg = cards\ace_of_spades.svg
+		cards\back.jpg = cards\back.jpg
+		cards\jack_of_clubs.svg = cards\jack_of_clubs.svg
+		cards\jack_of_diamonds.svg = cards\jack_of_diamonds.svg
+		cards\jack_of_hearts.svg = cards\jack_of_hearts.svg
+		cards\jack_of_spades.svg = cards\jack_of_spades.svg
+		cards\king_of_clubs.svg = cards\king_of_clubs.svg
+		cards\king_of_diamonds.svg = cards\king_of_diamonds.svg
+		cards\king_of_hearts.svg = cards\king_of_hearts.svg
+		cards\king_of_spades.svg = cards\king_of_spades.svg
+		cards\queen_of_clubs.svg = cards\queen_of_clubs.svg
+		cards\queen_of_diamonds.svg = cards\queen_of_diamonds.svg
+		cards\queen_of_hearts.svg = cards\queen_of_hearts.svg
+		cards\queen_of_spades.svg = cards\queen_of_spades.svg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BABFB32E-4EE7-4A89-A70F-77F3AECBD5AD}
+	EndGlobalSection
+EndGlobal
