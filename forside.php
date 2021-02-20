@@ -7,23 +7,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
-        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        /* Sætter højden af sidenav */
         .row.content {
-            height: 1000px;
+            height: 950px;
         }
 
-        /* Set gray background color and 100% height */
+        /* Grå baggrund og højden 100% */
         .sidenav {
             background-color: #f1f1f1;
             height: 100%;
             width: 210px;
         }
-
-        /* On small screens, set height to 'auto' for the grid */
-        @media screen and (max-width: 767px) {
-            .row.content {
-                height: auto;
-            }
         }
     </style>
 </head>

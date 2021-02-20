@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	// reset button will reset the table
+
 	$('#reset').click(function () {
 		$('li').remove();
 		$('.pscore p').remove();
@@ -8,7 +8,7 @@ $(document).ready(function () {
 		$('.dealers_cards').css("height", "96px");
 	});
 
-	// start button will reset the table and start the game
+
 	$('#start').click(function () {
 		$('li').remove();
 		$('.pscore p').remove();
@@ -44,16 +44,13 @@ $(document).ready(function () {
 	});
 });
 
-//Card face finder
+
 function cardFace(suit, figure) {
 	suits = { 1: "clubs", 2: "diamonds", 3: "hearts", 4: "spades" };
 	figures = { 1: "ace", 2: "2", 3: "3", 4: "4", 5: "5", 6: "6", 7: "7", 8: "8", 9: "9", 10: "10", 11: "jack", 12: "queen", 13: "king" };
-	var c = figures[figure] + "_of_" + suits[suit] + ".svg";
-	console.log(figures[figure]);
-	return c;
+	return figures[figure] + "_of_" + suits[suit] + ".svg";
 }
 
-//Deck_constructor
 function deck() {
 	this.create = function () {
 		var cardArray = [];
@@ -68,16 +65,7 @@ function deck() {
 	};
 }
 
-//check The Deck Constructor
-function deckChecker() {
-	var array = new deck();
-	var array = array.create();
-	for (i = 0; i < 52; i++) {
-		console.log(array[i].getNumber() + " of suit " + array[i].getSuit());
-	}
-}
 
-//Deck suffling
 function shuffle(a) {
 	for (let i = a.length; i; i--) {
 		let j = Math.floor(Math.random() * i);
@@ -86,7 +74,7 @@ function shuffle(a) {
 	return a;
 }
 
-//Card Constructor
+
 function Card(suit, number) {
 	var CardSuit = suit;
 	var CardNumber = number;
@@ -114,13 +102,12 @@ function revealDealerHand(hand) {
 	}
 }
 
-// Deal function provides players with cards and prepend card images with jQuery
 var deal = function (whos) {
 	var newCard = gameDeck.pop();
 	if (whos == "b") {
 		countingDealersCards += 1;
 	}
-	// I would like to automate the correct div selection, but it dosn't work for now.
+	
 	if (whos == "p") {
 		$('.players_cards ul').prepend('<li><a href="#"><img src="cards/' + cardFace(newCard.getSuit(), newCard.getNumber()) + '" /></a></li>');
 	} else if (whos == "b" && countingDealersCards < 2) {
@@ -132,7 +119,7 @@ var deal = function (whos) {
 	return newCard;
 };
 
-//Hand Object is keeping the score
+
 function Hand(whos, howManyCards) {
 	var who = whos;
 	var cardArray = [];
